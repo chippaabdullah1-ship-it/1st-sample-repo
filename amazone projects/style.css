@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box ;
+}
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("/images/amazon_logo.png");
+background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add1{
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 15px
+}
+
+.add2{
+font-size: 1rem;
+margin-left: 3px;
+}
+.addressicon{
+    display: flex;
+    align-items: center;
+}
+.navsearch{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+    justify-content: space-evenly;
+
+}
+.navsearch:hover{
+
+    border: 2px solid orange;
+}
+.searchselect{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+.searchinput{
+    width: 500px;
+    font-size: 1rem;
+    border: none;
+}
+
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(275, 174, 0);
+border-top-right-radius: 3px;
+border-top-left-radius: 3px;
+color: #0f1111;
+}
+
+span{
+    font-size: 0.7rem;
+}
+.nav2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.navcard i{
+font-size: 30px;
+}
+
+.navcard{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+background-color: #294040;
+color: #fff;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.panelopt p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panelopt{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.paneldeals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.herosection{
+    background-image: url("/images/hero_image.jpg");
+    background-size: cover;
+    height: 600px;
+}
